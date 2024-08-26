@@ -1,0 +1,288 @@
+2024-08-26 11:48:14,669 INFO    StreamThr :8656 [internal.py:wandb_internal():85] W&B internal server running at pid: 8656, started at: 2024-08-26 11:48:14.669274
+2024-08-26 11:48:14,669 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: status
+2024-08-26 11:48:14,669 INFO    WriterThread:8656 [datastore.py:open_for_write():87] open: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\run-n2v1f5xe.wandb
+2024-08-26 11:48:14,669 DEBUG   SenderThread:8656 [sender.py:send():391] send: header
+2024-08-26 11:48:14,723 DEBUG   SenderThread:8656 [sender.py:send():391] send: run
+2024-08-26 11:48:19,755 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: keepalive
+2024-08-26 11:48:20,612 INFO    SenderThread:8656 [dir_watcher.py:__init__():211] watching files in: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files
+2024-08-26 11:48:20,612 INFO    SenderThread:8656 [sender.py:_start_run_threads():1200] run started: n2v1f5xe with start time 1724654894.669273
+2024-08-26 11:48:20,612 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 11:48:20,612 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: check_version
+2024-08-26 11:48:20,612 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: check_version
+2024-08-26 11:48:21,212 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: run_start
+2024-08-26 11:48:21,228 DEBUG   HandlerThread:8656 [system_info.py:__init__():26] System info init
+2024-08-26 11:48:21,228 DEBUG   HandlerThread:8656 [system_info.py:__init__():41] System info init done
+2024-08-26 11:48:21,228 INFO    HandlerThread:8656 [system_monitor.py:start():194] Starting system monitor
+2024-08-26 11:48:21,228 INFO    SystemMonitor:8656 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-26 11:48:21,228 INFO    HandlerThread:8656 [system_monitor.py:probe():214] Collecting system info
+2024-08-26 11:48:21,228 DEBUG   HandlerThread:8656 [system_info.py:probe():152] Probing system
+2024-08-26 11:48:21,228 INFO    SystemMonitor:8656 [interfaces.py:start():188] Started cpu monitoring
+2024-08-26 11:48:21,228 INFO    SystemMonitor:8656 [interfaces.py:start():188] Started disk monitoring
+2024-08-26 11:48:21,228 INFO    SystemMonitor:8656 [interfaces.py:start():188] Started memory monitoring
+2024-08-26 11:48:21,244 INFO    SystemMonitor:8656 [interfaces.py:start():188] Started network monitoring
+2024-08-26 11:48:21,244 DEBUG   HandlerThread:8656 [system_info.py:_probe_git():137] Probing git
+2024-08-26 11:48:21,322 DEBUG   HandlerThread:8656 [system_info.py:_probe_git():145] Probing git done
+2024-08-26 11:48:21,322 DEBUG   HandlerThread:8656 [system_info.py:probe():200] Probing system done
+2024-08-26 11:48:21,322 DEBUG   HandlerThread:8656 [system_monitor.py:probe():223] {'os': 'Windows-11-10.0.22631-SP0', 'python': '3.12.4', 'heartbeatAt': '2024-08-26T06:48:21.228071', 'startedAt': '2024-08-26T06:48:14.669274', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'C:\\Users\\D2\\Desktop\\Celebrity-Classification\\graph.py', 'codePathLocal': 'graph.py', 'codePath': 'graph.py', 'git': {'remote': 'https://github.com/abdullahK911/Classification-Project.git', 'commit': 'cd1e927ba8f4fc72f7d91b4e0998ff2d68d63ad2'}, 'email': 'abdullah.ahmd@gmail.com', 'root': 'C:/Users/D2/Desktop/Celebrity-Classification', 'host': 'DESKTOP-6NKEV97', 'username': 'D2', 'executable': 'C:\\Users\\D2\\Desktop\\Celebrity-Classification\\.env\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3696.0, 'min': 0.0, 'max': 3696.0}, 'cpu_freq_per_core': [{'current': 3696.0, 'min': 0.0, 'max': 3696.0}], 'disk': {'/': {'total': 446.27636337280273, 'used': 91.41790008544922}}, 'memory': {'total': 15.896469116210938}}
+2024-08-26 11:48:21,322 INFO    HandlerThread:8656 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-26 11:48:21,322 INFO    HandlerThread:8656 [system_monitor.py:probe():227] Publishing system info
+2024-08-26 11:48:21,322 INFO    HandlerThread:8656 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-26 11:48:21,322 DEBUG   SenderThread:8656 [sender.py:send():391] send: files
+2024-08-26 11:48:21,322 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: python_packages
+2024-08-26 11:48:21,429 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: python_packages
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: stop_status
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 11:48:21,429 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: stop_status
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,429 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,445 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,445 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: partial_history
+2024-08-26 11:48:21,446 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: server_info
+2024-08-26 11:48:21,622 INFO    Thread-16 :8656 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\wandb-metadata.json
+2024-08-26 11:48:21,622 INFO    Thread-16 :8656 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\requirements.txt
+2024-08-26 11:48:22,078 DEBUG   SenderThread:8656 [sender.py:send():391] send: telemetry
+2024-08-26 11:48:22,078 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,078 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,079 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,079 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,095 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,095 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,095 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: history
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: summary_record
+2024-08-26 11:48:22,096 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send():391] send: telemetry
+2024-08-26 11:48:22,096 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: server_info
+2024-08-26 11:48:22,448 DEBUG   SenderThread:8656 [sender.py:send():391] send: exit
+2024-08-26 11:48:22,448 INFO    SenderThread:8656 [sender.py:send_exit():598] handling exit code: 0
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_exit():600] handling runtime: 1
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_exit():606] send defer
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 0
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 1
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 1
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 2
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 2
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-26 11:48:22,449 DEBUG   SystemMonitor:8656 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-26 11:48:22,449 DEBUG   SystemMonitor:8656 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-26 11:48:22,449 DEBUG   SystemMonitor:8656 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [interfaces.py:finish():200] Joined cpu monitor
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [interfaces.py:finish():200] Joined disk monitor
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [interfaces.py:finish():200] Joined memory monitor
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [interfaces.py:finish():200] Joined network monitor
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 3
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 3
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 4
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 4
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 5
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 5
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send():391] send: summary
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 6
+2024-08-26 11:48:22,449 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,449 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 6
+2024-08-26 11:48:22,449 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,449 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-08-26 11:48:22,462 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 11:48:22,631 INFO    Thread-16 :8656 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\wandb-summary.json
+2024-08-26 11:48:22,840 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 7
+2024-08-26 11:48:22,840 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,840 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 7
+2024-08-26 11:48:22,840 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,840 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-08-26 11:48:22,840 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 8
+2024-08-26 11:48:22,840 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,840 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 8
+2024-08-26 11:48:22,856 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:22,856 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-08-26 11:48:22,856 INFO    SenderThread:8656 [job_builder.py:build():443] Attempting to build job artifact
+2024-08-26 11:48:22,857 INFO    SenderThread:8656 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-08-26 11:48:22,888 INFO    SenderThread:8656 [job_builder.py:build():548] adding wandb-job metadata file
+2024-08-26 11:48:22,919 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 9
+2024-08-26 11:48:22,919 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:22,919 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 9
+2024-08-26 11:48:22,919 DEBUG   SenderThread:8656 [sender.py:send():391] send: artifact
+2024-08-26 11:48:23,237 INFO    wandb-upload_0:8656 [upload_job.py:push():130] Uploaded file C:\Users\D2\AppData\Local\Temp\tmpzwqfnpaewandb\q3zyf5rs-wandb-metadata.json
+2024-08-26 11:48:23,452 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 11:48:23,646 INFO    Thread-16 :8656 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\config.yaml
+2024-08-26 11:48:25,469 INFO    wandb-upload_1:8656 [upload_job.py:push():88] Uploaded file C:\Users\D2\AppData\Local\Temp\tmp_r7v39lb\wandb-job.json
+2024-08-26 11:48:26,805 INFO    wandb-upload_0:8656 [upload_job.py:push():88] Uploaded file C:\Users\D2\AppData\Local\wandb\wandb\artifacts\staging\tmpz5r_y0pu
+2024-08-26 11:48:28,502 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: keepalive
+2024-08-26 11:48:28,782 INFO    SenderThread:8656 [sender.py:send_artifact():1549] sent artifact job-https___github.com_abdullahK911_Classification-Project.git_graph.py - {'id': 'QXJ0aWZhY3Q6MTE2NTU2Mjg4Nw==', 'state': 'PENDING', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjQxNzE5MDQ5Mg==', 'latestArtifact': None}}
+2024-08-26 11:48:28,782 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:28,782 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-08-26 11:48:28,782 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: status_report
+2024-08-26 11:48:28,782 INFO    SenderThread:8656 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-26 11:48:29,688 INFO    SenderThread:8656 [dir_watcher.py:finish():388] scan: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files
+2024-08-26 11:48:29,688 INFO    SenderThread:8656 [dir_watcher.py:finish():402] scan save: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\config.yaml config.yaml
+2024-08-26 11:48:29,688 INFO    SenderThread:8656 [dir_watcher.py:finish():402] scan save: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\requirements.txt requirements.txt
+2024-08-26 11:48:29,688 INFO    SenderThread:8656 [dir_watcher.py:finish():402] scan save: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\wandb-metadata.json wandb-metadata.json
+2024-08-26 11:48:29,688 INFO    SenderThread:8656 [dir_watcher.py:finish():402] scan save: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\wandb-summary.json wandb-summary.json
+2024-08-26 11:48:29,688 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 10
+2024-08-26 11:48:29,688 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 11:48:29,688 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:29,688 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 10
+2024-08-26 11:48:29,703 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:29,703 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-08-26 11:48:29,703 INFO    SenderThread:8656 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-26 11:48:30,519 INFO    wandb-upload_1:8656 [upload_job.py:push():130] Uploaded file C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\config.yaml
+2024-08-26 11:48:30,519 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 11:48:30,519 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 11:48:30,519 INFO    wandb-upload_0:8656 [upload_job.py:push():130] Uploaded file C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\requirements.txt
+2024-08-26 11:48:31,203 INFO    wandb-upload_2:8656 [upload_job.py:push():130] Uploaded file C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\files\wandb-summary.json
+2024-08-26 11:48:31,422 INFO    Thread-15 (_thread_body):8656 [sender.py:transition_state():626] send defer: 11
+2024-08-26 11:48:31,422 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:31,422 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 11
+2024-08-26 11:48:31,422 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:31,422 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-08-26 11:48:31,422 INFO    SenderThread:8656 [file_pusher.py:join():175] waiting for file pusher
+2024-08-26 11:48:31,422 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 12
+2024-08-26 11:48:31,422 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:31,422 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 12
+2024-08-26 11:48:31,422 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:31,422 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-08-26 11:48:31,422 INFO    SenderThread:8656 [file_stream.py:finish():601] file stream finish called
+2024-08-26 11:48:31,532 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 11:48:31,872 INFO    SenderThread:8656 [file_stream.py:finish():605] file stream finish is done
+2024-08-26 11:48:31,872 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 13
+2024-08-26 11:48:31,872 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 11:48:31,872 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:31,872 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 13
+2024-08-26 11:48:31,872 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:31,872 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-08-26 11:48:31,872 INFO    SenderThread:8656 [sender.py:transition_state():626] send defer: 14
+2024-08-26 11:48:31,872 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: defer
+2024-08-26 11:48:31,872 INFO    HandlerThread:8656 [handler.py:handle_request_defer():184] handle defer: 14
+2024-08-26 11:48:31,872 DEBUG   SenderThread:8656 [sender.py:send():391] send: final
+2024-08-26 11:48:31,872 DEBUG   SenderThread:8656 [sender.py:send():391] send: footer
+2024-08-26 11:48:31,872 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: defer
+2024-08-26 11:48:31,872 INFO    SenderThread:8656 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-08-26 11:48:31,872 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: poll_exit
+2024-08-26 11:48:31,872 DEBUG   SenderThread:8656 [sender.py:send_request():418] send_request: poll_exit
+2024-08-26 11:48:31,872 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: internal_messages
+2024-08-26 11:48:31,872 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: get_summary
+2024-08-26 11:48:31,888 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: sampled_history
+2024-08-26 11:48:31,888 DEBUG   HandlerThread:8656 [handler.py:handle_request():158] handle_request: shutdown
+2024-08-26 11:48:31,888 INFO    HandlerThread:8656 [handler.py:finish():880] shutting down handler
+2024-08-26 11:48:32,887 INFO    WriterThread:8656 [datastore.py:close():296] close: C:\Users\D2\Desktop\Celebrity-Classification\wandb\run-20240826_114814-n2v1f5xe\run-n2v1f5xe.wandb
+2024-08-26 11:48:32,887 INFO    SenderThread:8656 [sender.py:finish():1631] shutting down sender
+2024-08-26 11:48:32,887 INFO    SenderThread:8656 [file_pusher.py:finish():169] shutting down file pusher
+2024-08-26 11:48:32,888 INFO    SenderThread:8656 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,45 @@
+{
+    "os": "Windows-11-10.0.22631-SP0",
+    "python": "3.12.4",
+    "heartbeatAt": "2024-08-26T08:29:31.802029",
+    "startedAt": "2024-08-26T08:29:29.734906",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "C:\\Users\\D2\\Desktop\\Celebrity-Classification\\graph.py",
+    "codePathLocal": "graph.py",
+    "codePath": "graph.py",
+    "git": {
+        "remote": "https://github.com/abdullahK911/Classification-Project.git",
+        "commit": "cd1e927ba8f4fc72f7d91b4e0998ff2d68d63ad2"
+    },
+    "email": "abdullah.ahmd@gmail.com",
+    "root": "C:/Users/D2/Desktop/Celebrity-Classification",
+    "host": "DESKTOP-6NKEV97",
+    "username": "D2",
+    "executable": "C:\\Users\\D2\\Desktop\\Celebrity-Classification\\.env\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 3696.0,
+        "min": 0.0,
+        "max": 3696.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3696.0,
+            "min": 0.0,
+            "max": 3696.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 446.27636337280273,
+            "used": 91.46138000488281
+        }
+    },
+    "memory": {
+        "total": 15.896469116210938
+    }
+}
